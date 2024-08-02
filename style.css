@@ -1,0 +1,39 @@
+html{
+    background-color: black;
+}
+
+#flag{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.base-rect{
+    position: static;
+    background-color: #009739;
+    height: 15rem;
+    width: 21rem;
+}
+
+##triangle-upper {
+    position: absolute;
+    top: 13%;
+    left: 8%;
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 90px solid #FEDD00;
+  }
+
+  ##triangle-bottom {
+    position: absolute;
+    top: 46%;
+    right: 9%;
+    width: 0;
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-top: 90px solid #FEDD00;
+  }
