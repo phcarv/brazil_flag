@@ -9,31 +9,37 @@ html{
     transform: translate(-50%, -50%);
 }
 
-.base-rect{
+.green-rect{
     position: static;
     background-color: #009739;
     height: 15rem;
     width: 21rem;
 }
 
-##triangle-upper {
-    position: absolute;
-    top: 13%;
-    left: 8%;
+
+#diamond-shape {
     width: 0;
     height: 0;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
-    border-bottom: 90px solid #FEDD00;
+    border: 50px solid transparent;
+    border-bottom: 70px solid #FEDD00;
+    position: relative;
+    top: -50px;
+  }
+  #diamond-shape:after {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 70px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 70px solid #FEDD00;
   }
 
-  ##triangle-bottom {
+  #tilted{
+    transform: scale(1.7, 2.0);
     position: absolute;
-    top: 46%;
-    right: 9%;
-    width: 0;
-    height: 0;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
-    border-top: 90px solid #FEDD00;
+    top: 60px;
+    left: 140px;
+    rotate: 90deg;
   }
