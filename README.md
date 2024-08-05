@@ -1,3 +1,3 @@
 ## Brazilian Flag
 
-[Brazilian Flag](https://imgur.com/oEuza9A)
+[Brazilian Flag](https://i.imgur.com/oEuza9A.png)
